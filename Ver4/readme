@@ -1,0 +1,4 @@
+In Ver 3, we built the web-app in Express, specifically focusing on building a REST API. 
+
+In Ver 4, we will connect our Express application to a MongoDB database. This involves moving all of the 
+data from our JSON files into the MongoDB database and performing queries on this data.
