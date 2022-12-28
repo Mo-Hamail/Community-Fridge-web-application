@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <title>Search for an item in the items collection</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link rel="stylesheet" href="../css/community-fridge.css" />
+</head>
+
+<body id="search_items" onload="searchItemFrmPrep()">
+  <menu>
+    <a href="index.html"><i class="m_sign fas fa-bars"></i></a>
+  </menu>
+  <!-- <div class="flex-container1"> -->
+    <section class="drop_sec" id="controls">
+    <div id="respArea" class="hidden">was successfully added to the items list!</div>
+    <h1 class= "home_h1" id="frigeHeading">Search for an item</h1>
+      <form class="add_item_form">
+        <label for="item_name" id="lbl_select">Name</label>
+        <input type="text" id="item_name" /><br><br>
+        <label for="item_type:">Type</label>
+        <input type="text" id="item_type" /><br><br>
+        <button id="submit_btn_search" >Search</button>
+    </form>
+    </section>
+<!--  </div> -->
+
+  <script src="../js/item_search.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <title>Add Fridge to community fridges</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link rel="stylesheet" href="../css/community-fridge.css" />
+</head>
+
+<body id="add_fridge" onload="addFridgeFrmPrep()">
+  <menu>
+    <a href="/index.html"><i class="m_sign fas fa-bars"></i></a>
+  </menu>
+  <!-- <div class="flex-container1"> -->
+    <section class="drop_sec" id="controls">
+    <div id="respArea" class="hidden">Fridge was successfully added to the Fridges List!</div>
+    <h1 class= "home_h1" id="frigeHeading">Add a new Fridge</h1>
+      <form class="add_item_form" id="add_fridge_form">
+        <label for="fridge_name" id="lbl_select">Name</label>
+        <input type="text" id="fridge_name"/><br><br>
+        <label for="can_accept_items">Can Accept Items</label>
+        <input type="text" id="can_accept_items" /><br><br>
+        <label for="grocery_items" id="lbl_select">Choose Accepted Types</label>
+        <select id="grocery_items" multiple size="4">
+        </select><br><br>
+        <label for="contact_person">Contact Person</label>
+        <input type="text" id="contact_person" /><br><br>
+        <label for="contact_phone">Contact Phone</label>
+        <input type="text" id="contact_phone" /><br><br>
+        <label for="street">Street</label>
+        <input type="text" id="street" /><br><br>
+        <label for="postal_code">Postal Code</label>
+        <input type="text" id="postal_code" /><br><br>
+        <label for="city">City</label>
+        <input type="text" id="city" /><br><br>
+        <label for="province">Province</label>
+        <input type="text" id="province" /><br><br>
+        <button id="submit_btn1" disabled="true">Add Fridge</button>
+    </form>
+    </section>
+<!--  </div> -->
+
+  <script src="../js/community-fridge.js"></script>
+</body>
+</html>
