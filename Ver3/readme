@@ -1,0 +1,23 @@
+Ver. 2  was built using client-side technologies such as HTML, CSS, and JavaScript. 
+In Ver. 2, we began to build the server-side component of the web application. Specifically, 
+we created a Node.js server to serve all the resources associated with the application (e.g., HTML, CSS,
+JavaScript, CSS, and JSON). In addition to this, we also added persistence in our application, where 
+the changes made by the user are saved to the server. Specifically, we added functionality where users 
+could drop-off an item into the community fridge. Dropping off an item adds it to the fridges JSON data 
+located on the server.
+
+In Ver 3, we will add additional functionality into our application. To support the additional functionality
+, we will build on both the client and the server-side code of our application. We will also build
+a REST API for accessing various resources of our application. Through this API, our application will 
+support the following functionalities:
+
+[modification] View the list of fridges
+[new feature] Add a new fridge
+[new feature] Edit the details of a fridge
+[new feature] Delete a fridge
+[modification] View the list of items in a fridge
+[modification] Deleting items from a fridge
+[modification] Add an item to the fridge
+[modification] Retrieve the list of items in the system
+[modification] Create a new item in the system
+[new feature] Update an item in the system
