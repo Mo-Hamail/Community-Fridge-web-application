@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <title>Drop off an item to a community fridge</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link rel="stylesheet" href="css/community-fridge.css" />
+</head>
+
+<body id="add_items" onload="loadItems()">
+  <menu>
+    <a href="index.html"><i class="m_sign fas fa-bars"></i></a>
+  </menu>
+  <!-- <div class="flex-container1"> -->
+    <section class="drop_sec" id="controls">
+    <div id="respArea" class="hidden">The item has been successfully added to the fridge!</div>
+    <h1 class= "home_h1" id="frigeHeading">Drop off an item in a community fridge</h1>
+      <form class="dropform">
+        <label for="grocery_items" id="lbl_select">Choose an item:</label>
+        <select id="grocery_items" size="4">
+        </select><br><br>
+        <a class="addlink" href="add_item.html">&oplus; Add an Item</a><br>
+        <label for="number_items:">Number of items</label>
+        <input type="text" id="number_items" /><br><br>
+        <button id="submit_btn" disabled="true">Find fridges</button>
+    </form>
+    </section>
+    <section id="view_results" class="hidden">
+      <!-- <h2>Available fridges</h2> -->
+    </section>
+<!--  </div> -->
+
+  <script src="js/community-fridge.js"></script>
+</body>
+</html>
